@@ -7,7 +7,7 @@ Tested up to: 3.9.1
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 Shows next previous page or article link using icons, have setting to configure as need.
 
