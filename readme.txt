@@ -31,6 +31,8 @@ e.g.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Check setting from the setting menu from admin panel
 
+See more details and usages guide here http://codeboxr.com/product/show-next-previous-article-wordpress-plugin
+
 == Frequently Asked Questions ==
 
 
