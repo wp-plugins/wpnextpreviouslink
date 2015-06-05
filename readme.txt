@@ -1,10 +1,10 @@
-=== Codeboxr Next Previous Link ===
+=== CBX Next Previous Link ===
 Contributors: manchumahara, codeboxr
 Donate link: http://codeboxr.com
 Tags: nextprev, navigation
 Requires at least: 3.0
-Tested up to: 3.9.1
-Stable tag: 1.1
+Tested up to: 4.2.2
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,8 +21,6 @@ Looking for a WordPress plugin that will enable your readers to go to next or pr
 *   Simple and Fast Article Navigation
 *   Comes with Pre-styled 8 Next/ Previous Buttons
 
-See more details and usages guide here http://codeboxr.com/product/show-next-previous-article-wordpress-plugin
-
 == Installation ==
 
 This section describes how to install the plugin and get it working.
@@ -33,16 +31,17 @@ e.g.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Check setting from the setting menu from admin panel
 
-
 == Frequently Asked Questions ==
 
 
 
 == Screenshots ==
 
-1. Backend Setting
+
 
 == Changelog ==
+= 1.2 =
+* Supports Custom post types
 
 = 1.1 =
 * First release

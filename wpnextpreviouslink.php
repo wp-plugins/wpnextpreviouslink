@@ -1,9 +1,9 @@
 <?php
 /*
-  Plugin Name: Codeboxr Next Previous Link
+  Plugin Name: CBX Next Previous Link
   Plugin URI: http://codeboxr.com/product/show-next-previous-article-plugin-for-wordpress
   Description: WordPress Next Previous Link
-  Version: 1.1
+  Version: 1.2
   Author: codeboxr
   Author URI: http://codeboxr.com/
  */
@@ -48,7 +48,7 @@ function wordPress_next_previous_link() {
         'show_tag'            => '1',
         'show_author'         => '1',
         'show_date'           => '1',
-        'same_cat'            => 'TRUE',
+        'same_cat'            => 'FALSE',
     );
 
     $saved_options_array  = get_option('wpnextpreviouslinkbtn');
@@ -94,7 +94,10 @@ function wordPress_next_previous_link() {
 
     //var_dump(is_home());
 
-    if (is_single()) {
+    if (is_singular()) {
+
+
+
         $prev_link = previous_post_link('%link', '<span id="wpnp_previous"> &larr; %title</span>', $same_cat); // will return html link
         $next_link = next_post_link('%link', '<span id="wpnp_next"> &larr; %title</span>', $same_cat); //will return html link
         echo $prev_link . $next_link;
@@ -139,7 +142,7 @@ $cbnextprevioushook = add_action('admin_menu', 'cbnextprevious_admin');   //addi
 function cbnextprevious_admin() {
     global $cbnextprevioushook;
     if (function_exists('add_options_page')) {
-        $page_hook = add_options_page('WP Next Previous Options', 'Next Previous Option', 8, 'cbnextpreviouslink', 'cbnextpreviousform');
+        $page_hook = add_options_page('WP Next Previous Options', 'Next Previous Option', 'manage_options', 'cbnextpreviouslink', 'cbnextpreviousform');
         //add_action( 'admin_print_styles-' . $page_hook, 'cbnextprevadminstyles' );
     }
 }
@@ -421,7 +424,13 @@ function cbnextpreviousform() {
                                                         <p>Gplus : <a href="https://plus.google.com/104289895811692861108" target="_blank">Google Plus</a></p>
                                                 </div>
                                         </div>
-                                                                  
+								        <div class="postbox">
+									        <h3>Free Wordpress Themes</h3>
+									        <div class="inside">
+										        <a href="http://themeboxr.com" target="_blank"><img src="http://themeboxr.com/wp-content/themes/themeboxr/images/themeboxr-logo-rect-black.png" alt="themeboxr" /></a>
+									        </div>
+								        </div>
+
                                         <div class="postbox">
                                                 <h3>Help & Supports</h3>
                                                 <div class="inside">
@@ -461,12 +470,7 @@ function cbnextpreviousform() {
                                                         ?>
                                                 </div>
                                         </div>
-                                        <div class="postbox">
-                                            <h3>Video demo</h3>
-                                            <div class="inside">
-                                                <!-- <iframe width="260" height="158" frameborder="0" src="http://www.screenr.com/embed/2Ow7"></iframe> -->
-                                            </div>
-                                        </div>
+
                                         <div class="postbox">
                                             <h3>Codeboxr on facebook</h3>
                                             <div class="inside">
