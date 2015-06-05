@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: CBX Next Previous Link
-  Plugin URI: http://codeboxr.com/product/show-next-previous-article-plugin-for-wordpress
+  Plugin URI: http://codeboxr.com/product/show-next-previous-article-wordpress-plugin
   Description: WordPress Next Previous Link
   Version: 1.2
   Author: codeboxr
