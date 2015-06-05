@@ -21,6 +21,8 @@ Looking for a WordPress plugin that will enable your readers to go to next or pr
 *   Simple and Fast Article Navigation
 *   Comes with Pre-styled 8 Next/ Previous Buttons
 
+More details http://codeboxr.com/product/show-next-previous-article-wordpress-plugin
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
